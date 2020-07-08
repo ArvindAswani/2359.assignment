@@ -8,7 +8,9 @@ package utils;
  *
  */
 public enum SoundEnums {
-	    
+	
+	 
+	    CATERPILLAR("caterpillar"),
 	    CAT("Meow"),
 	    DOG("Woof, woof"),
         ROOSTER("Cock-a-doodle-doo"),
