@@ -9,6 +9,7 @@ package utils;
  */
 public enum SoundEnums {
 	
+	    DUCK("Quack, quack"),
 	    DEFAULT("I am singing"),
 	    NO_SOUND("");
 	    private String sound;
