@@ -7,6 +7,6 @@ package adapterServices;
  * @author arvind
  *
  */
-public interface QuackBehavior {
+public interface SoundBehavior {
 	 void callSound();
 }

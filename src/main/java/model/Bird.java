@@ -4,7 +4,7 @@
 package model;
 
 import adapterServices.Fly;
-import adapterServices.Quack;
+import adapterServices.Sound;
 import adapterServices.Walkable;
 import constant.AppConstant;
 import service.SingService;
@@ -14,7 +14,7 @@ import utils.SoundEnums;
  * @author arvind
  *
  */
-public class Bird extends Animal implements Walkable, Quack, Fly {
+public class Bird extends Animal implements Walkable, Sound, Fly {
 
 	
 	private SingService singService;
