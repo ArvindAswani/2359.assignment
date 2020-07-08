@@ -7,7 +7,7 @@ package adapterServices;
  * @author arvind
  *
  */
-public interface MuteQuack extends SoundBehavior {
+public interface Mute extends SoundBehavior {
     void callSound();
 
 }
