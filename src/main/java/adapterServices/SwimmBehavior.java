@@ -7,6 +7,6 @@ package adapterServices;
  * @author arvind
  *
  */
-public interface Swimm {
+public interface SwimmBehavior {
 	void canSwim();
 }

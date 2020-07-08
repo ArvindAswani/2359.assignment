@@ -4,7 +4,7 @@
 package model;
 
 import adapterServices.Fly;
-import adapterServices.Swimm;
+import adapterServices.SwimmBehavior;
 import constant.AppConstant;
 import service.SingService;
 import utils.SoundEnums;
@@ -13,7 +13,7 @@ import utils.SoundEnums;
  * @author arvind
  *
  */
-public class Duck extends Bird implements Swimm, Fly{
+public class Duck extends Bird implements SwimmBehavior, Fly{
 	
 	 public Duck() {
 	        super(new SingService(SoundEnums.DUCK));
