@@ -9,8 +9,6 @@ package model;
  */
 public abstract class Animal {
 
-	public void walk(){
-		System.out.println("I can walk");
-	}
+	
 	
 }
